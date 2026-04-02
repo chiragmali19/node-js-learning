@@ -1,0 +1,29 @@
+{
+  "name": "node-js-learning",
+  "version": "1.0.0",
+  "description": "tutorial for backend learning",
+  "homepage": "https://github.com/chiragmali19/node-js-learning#readme",
+  "bugs": {
+    "url": "https://github.com/chiragmali19/node-js-learning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiragmali19/node-js-learning.git"
+  },
+  "license": "ISC",
+  "author": "Chirag",
+  "main": "backend/src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dns": "^0.2.2",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "nodemon": "^3.1.14"
+  }
+}
